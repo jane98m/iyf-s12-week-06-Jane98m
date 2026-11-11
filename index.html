@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Weather Dashboard</h1>
+  <p>Check the weather in any city</p>
+
+  <!-- Search area -->
+  <input type="text" id="cityInput" placeholder="Type a city, e.g. Nairobi">
+  <button id="searchBtn">Search</button>
+  <button id="unitBtn">Change to °F</button>
+
+  <!-- Messages -->
+  <p id="loading" class="hidden">Loading, please wait...</p>
+  <p id="error" class="hidden"></p>
+
+  <!-- Current weather -->
+  <div id="current" class="hidden">
+    <h2 id="cityName"></h2>
+    <p id="date"></p>
+    <img id="weatherIcon" src="" alt="weather icon">
+    <h3 id="temp"></h3>
+    <p id="desc"></p>
+    <p id="details"></p>
+  </div>
+
+  <!-- History -->
+  <h3>Recent Searches</h3>
+  <div id="history"></div>
+
+  <!-- Forecast -->
+  <h3>5-Day Forecast</h3>
+  <div id="forecast"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+                         </html>
