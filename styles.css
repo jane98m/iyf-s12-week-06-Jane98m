@@ -1,0 +1,56 @@
+/* My weather app styles - Jane */
+
+body {
+  font-family: Arial;
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: navy;
+}
+
+#current {
+  background-color: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#forecast {
+  background-color: white;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#history button {
+  background-color: white;
+  color: darkblue;
+  border: 1px solid darkblue;
+  margin: 3px;
+}
+
+.hidden {
+  display: none;
+  }
